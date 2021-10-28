@@ -18,12 +18,17 @@
         color: $colorDark;
         text-decoration: none;
     }
+    &-info {
+        .nav-item {
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+    }
 }
 
 .cart {
     background-image: url(/img/shopping-basket-button.svg);
     display: block;
-    width: 30px;
     height: 30px;
     padding-left: 45px;
     background-repeat: no-repeat;
